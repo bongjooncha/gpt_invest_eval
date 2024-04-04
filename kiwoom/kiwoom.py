@@ -38,6 +38,7 @@ class Kiwoom(QAxWidget):
     #키움 레지스트리 위치를 알려주기 위한 코드
     def get_ocx_instnace(self):
         self.setControl("KHOPENAPI.KHopenAPICtrl.1")
+        print('ok')
 
     #이벤트 슬롯 모음
     def event_slots(self):
